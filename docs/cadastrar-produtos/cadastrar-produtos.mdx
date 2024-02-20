@@ -1,0 +1,116 @@
+---
+id: cadastrar-produtos
+title: Como cadastrar produtos
+---
+
+## Adicionar um produto
+Acesse o **menu principal**, em seguida clique em **Produtos/Serviços > Produtos**. 
+
+![Aba produtos](@site/static/img/cadastrar-produtos/aba-produtos.png)
+
+Será mostrado uma tabela com todos os produtos cadastrados.
+
+Na barra de ferramentas no canto superior direito da tabela clique no ícone **Ações** ![Icone ações](@site/static/img/cadastrar-produtos/icone-acoes.png) e então **Adicionar Produto**.
+
+Serão apresentados os campos necessários para cadastro do produto.
+
+- **Código**: Determina qual será o código de identificação do produto para controle interno, ele será automaticamente incrementado em 1 a cada novo produto registrado.
+
+Pode ser deixado como padrão.
+
+- **Descrição**: O nome do produto.
+
+- **Prazo de validade**: Data de validade do produto. Deve ser preenchido caso o produto apresente característica perecível.
+
+- **Tipo de Produto/Código de Barras**: descrição
+	
+  - Produto simples [Preço]: Para produtos especificados apenas pelo preço
+  - Produto simples [Margem]: Para produtos especificados apenas pela margem
+  - Produto simples com tabelas de pesquisa [Preço]:  ___
+  - Produto simples com tabelas de pesquisa [Margem]:  ___
+  - Balança/Peso EAN (KG) [Preço]:  ___
+  - Balança/Peso EAN (KG) [Margem]:  ___
+  - Balança/Preço [Preço]:  ___
+  - Código + ID de Grade [Preço]:  ___
+  - Código = ID de Grade [Preço]:  ___
+  - Produto com opção [Preço Venda + Opção]:  ___
+  - Produto com opções [Preço Venda + Opções]:  ___
+  - Desdobramento de produto:  ___
+  - Produto de Tabela [Preço]:  ___
+  - Produto de Tabela [Margem]:  ___
+
+- **Composição**: Especifique o tipo do produto
+  - Produto Simples
+  - Produto Composto [venda do produto]
+  - Produto Composto [venda da composição]
+
+**Código de Barras**: O código de barras atribuído ao produto.
+
+Selecione a modalidade da operação
+  - Compra: Se o produto está sendo comprado
+  - Venda: Se o produto está sendo vendido
+  - PDV: Se o produto está sendo vendido por meio de um PDV
+
+![Adicionar produtos](@site/static/img/cadastrar-produtos/adicionar-produtos.png)
+
+## Abas de informações adicionais  
+
+A seção abaixo contém abas que segmentam as informações relativas à venda do produto.
+
+### Grupos
+Selecione o grupo ao qual o produto pertence.
+
+### Códigos Tributários
+Preencha as informações relacionadas a tributação do produto.
+
+- Nomenclatura Comum do Mercosul [NCM]  
+    Como encontrar 
+- Código Especificador da Substituição Tributária [CEST]  
+    Como encontrar 
+- Código Fiscal de Operações e Prestações [CFOP]  
+    Como encontrar 
+- Código da Situação Tributária [CST - CSOSN]  
+    Como encontrar 
+- Código da Situação Tributária [CST] para IPI  
+    Como encontrar 
+- Código da Situação Tributária [CST] para PIS / COFINS  
+    Como encontrar 
+
+### Notas
+
+**Notas**:  
+**Imagem**:  
+
+### Unidades de Medida
+
+- **Unidades de Medida**
+- **Quantidade**
+- **Opção**
+  - <u>Nenhum</u>
+  - <u>Pedir quantidade</u>
+  - <u>Pedir preço</u>
+- **Peso Líquido**
+- **Peso Bruto**
+
+### Preços/Estoques
+
+- **Custo Mínimo**:
+- **Custo Médio**:
+- **Custo Máximo**:
+- **Preço de compra**:
+- **Preço de venda**:
+- **Margem de Lucro (%)**:
+- **Estoque Mínimo**:
+- **Estoque Máximo**:
+- **Estoque Real**:
+- <u>Análise Tributária</u>:
+
+### Impressão
+
+- **MAC Address/Destino**
+- **Impressora**
+- **Observações de pedidos**
+
+### Histórico  
+
+Nesta aba é possível visualizar o histórico de alterações do produto e o respectivo usuário que editou.
