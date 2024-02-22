@@ -15,12 +15,14 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          O guia para sua contabilidade
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/boleto-banco-inter/">
-            Começar agora ⏱️
+            to="/docs/Boletos/boleto-banco-inter/">
+            Ir para Manual
           </Link>
         </div>
       </div>

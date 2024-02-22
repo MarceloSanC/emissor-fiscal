@@ -4,22 +4,20 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Emita todos os tipos de notas fiscais',
+    Svg: require('@site/static/img/home/nf-notebook.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Emita com facilidade qualquer tipo de nota fiscal. NF-e, NF/D1, NFS-e, MDF-e, NFP-e, CT-e, NFC-e, CF-e.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Realize cadastros rapidos e eficientes',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Cadastre clientes, fornecedores, vendedores, transportadoras, motoristas para automatizar a emissão de notas para produtos, serviços, fretes, seguros e muito mais!
       </>
     ),
   },
